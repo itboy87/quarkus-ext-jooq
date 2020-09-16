@@ -1,7 +1,7 @@
 package io.quarkus.ext.jooq.runtime.deployment;
 
 import io.agroal.api.AgroalDataSource;
-import io.quarkus.agroal.deployment.JdbcDataSourceBuildItem;
+import io.quarkus.agroal.spi.JdbcDataSourceBuildItem;
 import io.quarkus.arc.deployment.BeanContainerListenerBuildItem;
 import io.quarkus.arc.deployment.GeneratedBeanBuildItem;
 import io.quarkus.arc.deployment.UnremovableBeanBuildItem;
