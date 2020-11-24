@@ -24,7 +24,7 @@ This will make the following dependency available:
 Or for gradle something like:
 
 ```sh
-compile 'io.quarkus.ext:quarkus-ext-jooq:1.0-SNAPSHOT'
+compile 'io.quarkus.ext:quarkus-ext-jooq:1.9.2-SNAPSHOT'
 ```
 You also need quarkus-agroal:
 
