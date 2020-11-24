@@ -7,7 +7,7 @@ Updated version of this prior work https://github.com/leotu/quarkus-ext-jooq
 **Warning - this should not be considered production ready!**
 
 ```sh
-git clone https://github.com/angrymango/quarkus-ext-jooq.git
+git clone https://github.com/itboy87/quarkus-ext-jooq.git
 cd quarkus-ext-jooq
 mvn clean install
 ```
