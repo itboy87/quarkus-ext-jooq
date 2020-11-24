@@ -18,7 +18,7 @@ This will make the following dependency available:
 <dependency>
     <groupId>io.quarkus.ext</groupId>
     <artifactId>quarkus-ext-jooq</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.9.2-SNAPSHOT</version>
 </dependency>
 ```
 Or for gradle something like:
@@ -51,20 +51,4 @@ The DSL context can then be injected with:
 ```java
 @Inject
 DSLContext dsl; // default
-```
-
-Building a native image requires javax.persistence. An easy way to add it is to use:
-
-```groovy
-compile group: 'org.hibernate.javax.persistence', name: 'hibernate-jpa-2.1-api', version: '1.0.0.Final'
-```
-
-Or for maven users
-
-```xml
-<dependency>
-    <groupId>org.hibernate.javax.persistence</groupId>
-    <artifactId>hibernate-jpa-2.1-api</artifactId>
-    <version>1.0.0.Final</version>
-</dependency>
 ```
