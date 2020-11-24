@@ -1,6 +1,6 @@
 # Quarkus jOOQ extension
 
-This is a https://github.com/quarkusio/quarkus[Quarkus] extension for https://github.com/jOOQ/jOOQ[jOOQ].
+This is a https://github.com/quarkusio/quarkus extension for https://github.com/jOOQ/jOOQ.
 
 Updated version of this prior work https://github.com/leotu/quarkus-ext-jooq
 
